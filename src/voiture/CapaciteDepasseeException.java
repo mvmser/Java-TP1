@@ -1,8 +1,15 @@
+package voiture;
+
 public class CapaciteDepasseeException extends Exception{
 
     //private double depassementJauge;
 
-    //Constructeur
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	//Constructeur
     public CapaciteDepasseeException(String message ){
         //this.depassementJauge = depassementJauge;
         //System.out.printf("Il y a %.2fl d'essence en trop!!%n", depassementJauge);

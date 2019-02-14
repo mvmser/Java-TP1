@@ -1,3 +1,5 @@
+package voiture;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -27,15 +29,15 @@ public class Garage implements Iterable<Vehicule> {
 
     //trier selon le compteur
    
-    public Vehicule triCompteur(Vehicule veh){
-        Collections.sort(vehicules, new ComparateurCompteur());
-        //this.garage.sort(Comparator<Vehicule>;
-        /*
-        Iterator<Vehicule> it=t.iterator();
-        while(it.hasNext()){
-            System.out.println(it.next);
-*/
-    }
+//    public Vehicule triCompteur(Vehicule veh){
+//        Collections.sort(vehicules, new ComparateurCompteur());
+//        //this.garage.sort(Comparator<Vehicule>;
+//        /*
+//        Iterator<Vehicule> it=t.iterator();
+//        while(it.hasNext()){
+//            System.out.println(it.next);
+//*/
+//    }
 
 
     //Trier selon le num d'immatriculation

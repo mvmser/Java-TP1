@@ -1,3 +1,5 @@
+package voiture;
+
 
 public class Vehicule implements Comparable<Vehicule> {
 	//ATTRIBUTS
@@ -39,7 +41,7 @@ public class Vehicule implements Comparable<Vehicule> {
 			this.jauge += essence;
 		}
 		else {
-			//System.out.printf("Votre rÃ©servoir a une capacitÃ© insuffisante pour mettre %fl d'essence.%n", this.jauge + essence - RESERVOIR);
+			//System.out.printf("Votre réservoir a une capacité insuffisante pour mettre %fl d'essence.%n", this.jauge + essence - RESERVOIR);
 
 			throw new CapaciteDepasseeException("Il y a " + (this.jauge + essence - RESERVOIR) +"l d'essence en trop!!\n");
 		}	
