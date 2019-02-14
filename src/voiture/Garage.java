@@ -7,7 +7,7 @@ import java.util.Iterator;
 
 public class Garage implements Iterable<Vehicule> {
     private List<Vehicule> vehicules;
-    //private Set<Vehicule> trier = new TreeSet<Vehicule>();
+    //private Set<Vehicule> trier = new TreeSet<Vehicule>(); 
 
     //Constructeur
     public Garage(){
