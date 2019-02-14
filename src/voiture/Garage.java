@@ -6,19 +6,22 @@ import java.util.List;
 import java.util.Iterator;
 
 public class Garage implements Iterable<Vehicule> {
+	//Liste contenant plusieurs véhicules
     private List<Vehicule> vehicules;
-    //private Set<Vehicule> trier = new TreeSet<Vehicule>();
 
     //Constructeur
     public Garage(){
+    	//vehicules est une ArrayList
         vehicules = new ArrayList<Vehicule>();
     }
 
+    @Override
     public Iterator<Vehicule> iterator(){
         return vehicules.iterator();
     }
 
     public void add(Vehicule vehicule){
+    	//On ajoute un vehicule à l'arrayList grace a la methode add
         vehicules.add(vehicule);
     }
 
