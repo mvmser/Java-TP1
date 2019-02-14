@@ -23,7 +23,7 @@ public class UtilisationVer3{
 		//UtilisationVer3.testMappings2();
 	}
 	
-	
+	//TESTER LE COMPTEUR
 	public static void testCompteur() {
 		Compteur compteur = new Compteur();
 		System.out.println(compteur);
@@ -37,6 +37,7 @@ public class UtilisationVer3{
 		System.out.println(compteur);
 	}
 
+	//TESTER LE VEHICULE
 	public static void testVehicule() {
 		Vehicule vehicule1 = new Vehicule(5.3);
 		Vehicule vehicule2 = new Vehicule(8.7);
@@ -95,7 +96,9 @@ public class UtilisationVer3{
 		System.out.println(vehicule1.compareTo(vehicule2));
 
 	}
-
+	
+	
+	//Tester le garage1 avec ARRAYLIST
 	public static void testGarage1() {
 		Garage garage = new Garage();
 
@@ -121,6 +124,7 @@ public class UtilisationVer3{
 		}
 		System.out.println(garage);
 
+			//Appel de la fonction de test "trier le garage"
 		//UtilisationVer3.tri1(garage);
 		
 	}
@@ -196,7 +200,8 @@ public class UtilisationVer3{
 		System.out.println(garage);
 	}
 
-	
+
+	//Tester le garage2 avec TREESET
 	public static void testGarage2() {
 		Garage2 garage = new Garage2();
 
@@ -266,6 +271,8 @@ public class UtilisationVer3{
 		UtilisationVer3.tri2(garage);
 	}
 
+
+	//Fonction qui trie le garage avec ARRAYLIST
 	private static void tri1(Garage1 garage) {
 		System.out.println("\n\n##Tri selon le no immatriculation ##");
 		garage.triNoImmatriculion();
@@ -276,6 +283,7 @@ public class UtilisationVer3{
 		System.out.println(garage);		
 	}
 
+	//Fonction qui trie le garage avec TREESET
 	private static void tri2(Garage2 garage) {
 		System.out.println("\n\n##Tri selon le no immatriculation ##");
 		garage.triNoImmatriculion();
