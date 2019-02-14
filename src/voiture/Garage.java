@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Iterator;
 
 public class Garage implements Iterable<Vehicule> {
-	//Liste contenant plusieurs véhicules
+	//Liste contenant plusieurs vï¿½hicules
     private List<Vehicule> vehicules;
 
     //Constructeur
@@ -21,7 +21,7 @@ public class Garage implements Iterable<Vehicule> {
     }
 
     public void add(Vehicule vehicule){
-    	//On ajoute un vehicule à l'arrayList grace a la methode add
+    	//On ajoute un vehicule ï¿½ l'arrayList grace a la methode add
         vehicules.add(vehicule);
     }
 
