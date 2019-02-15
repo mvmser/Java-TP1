@@ -6,7 +6,7 @@ public class CapaciteDepasseeException extends Exception{
 
 	public CapaciteDepasseeException(String message){
         //this.depassementJauge = depassementJauge;
-        //System.out.printf("Il y a %.2fl d'essence en trop!!%n", depassementJauge);
+        //System.out.printf("Il y a %.2f L d'essence en trop!!%n", depassementJauge);
         super(message);
     }
 }

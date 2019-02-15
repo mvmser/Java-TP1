@@ -4,10 +4,10 @@ public class UtilisationVer3{
 	public static void main(String[] args) {
 
 		System.out.println("######## TESTS DES COMPTEURS ########");
-		UtilisationVer3.testCompteur();
+		//UtilisationVer3.testCompteur();
 
 		System.out.println("\n\n######## TESTS DES VEHICULES ########");
-		UtilisationVer3.testVehicule();
+		//UtilisationVer3.testVehicule();
 				
 		System.out.println("\n\n######## TESTS DU GARAGE Collection: List ########");
 		UtilisationVer3.testGarage1();

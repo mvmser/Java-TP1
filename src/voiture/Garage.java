@@ -30,25 +30,13 @@ public class Garage implements Iterable<Vehicule> {
         return vehicules.toString();
     }
 
-    //trier selon le compteur
-   
-//    public Vehicule triCompteur(Vehicule veh){
-//        Collections.sort(vehicules, new ComparateurCompteur());
-//        //this.garage.sort(Comparator<Vehicule>;
-//        /*
-//        Iterator<Vehicule> it=t.iterator();
-//        while(it.hasNext()){
-//            System.out.println(it.next);
-//*/
-//    }
-
 
     //Trier selon le num d'immatriculation
     public void triNoImmatriculion(){
         Collections.sort(vehicules);
     }
 
-  //Trier selon le compteur
+    //Trier selon le compteur
     public void triCompteur() {
 		Collections.sort(vehicules, new ComparateurCompteur());
 	}
