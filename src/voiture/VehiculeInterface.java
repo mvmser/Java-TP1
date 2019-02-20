@@ -5,7 +5,7 @@ public interface VehiculeInterface {
 }
 
 //reset all partiel
-class ResetPartiel implements Fonction<Vehicule>{
+class ResetPartiel extends Fonction<Vehicule>{
 
 	@Override
 	public void applyIt(Vehicule vehicule) {
@@ -15,7 +15,7 @@ class ResetPartiel implements Fonction<Vehicule>{
 
 
 //Faire le plein s'il reste moins de 10 litres
-class FaireLePlein implements Fonction<Vehicule>{
+class FaireLePlein extends Fonction<Vehicule>{
 
 	@Override
 	public void applyIt(Vehicule vehicule) {
