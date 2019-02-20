@@ -4,15 +4,16 @@ public class UtilisationVer3{
 	public static void main(String[] args) {
 
 		System.out.println("######## TESTS DES COMPTEURS ########");
-		//UtilisationVer3.testCompteur();
+		UtilisationVer3.testCompteur();
 
 		System.out.println("\n\n######## TESTS DES VEHICULES ########");
-		//UtilisationVer3.testVehicule();
+		UtilisationVer3.testVehicule();
 				
 		System.out.println("\n\n######## TESTS DU GARAGE Collection: List ########");
 		UtilisationVer3.testGarage1();
+		
 		System.out.println("\n\n######## TESTS DU GARAGE Collection: List Mappings ########");
-		//UtilisationVer3.testMappings1();
+		UtilisationVer3.testMappings1();
 
 		System.out.println("\n\n######## TESTS DU GARAGE Collection: Set Comparable########");
 		//UtilisationVer3.testGarage2();
@@ -125,11 +126,22 @@ public class UtilisationVer3{
 		System.out.println(garage);
 
 			//Appel de la fonction de test "trier le garage"
-		//UtilisationVer3.tri1(garage);
-		
+		UtilisationVer3.tri1(garage);
 	}
 
-/*
+	//Fonction qui trie le garage avec ARRAYLIST
+	private static void tri1(Garage garage) {
+		System.out.println("\n\n##Tri selon le no immatriculation ##");
+		garage.triNoImmatriculion();
+		System.out.println(garage);
+
+		System.out.println("\n\n##Tri selon le compteur km totalisateur ##");
+		garage.triCompteur();
+		System.out.println(garage);		
+	}
+
+
+
 	public static void testMappings1() {
 		Garage garage = new Garage();
 
@@ -139,7 +151,7 @@ public class UtilisationVer3{
 		garage.add(new Vehicule(5.9));
 		garage.add(new Vehicule(4.5));
 		System.out.println(garage);
-/*
+
 		for(Vehicule vehicule : garage) {
 			vehicule.faireLePlein();
 			vehicule.rouler(Math.random() * 3000);
@@ -164,7 +176,7 @@ public class UtilisationVer3{
 		System.out.println(garage);
 		
 	}
-
+/*
 	
 	public static void testMappings2() {
 		Garage2 garage = new Garage2();
@@ -272,17 +284,7 @@ public class UtilisationVer3{
 	}
 
 
-	//Fonction qui trie le garage avec ARRAYLIST
-	private static void tri1(Garage1 garage) {
-		System.out.println("\n\n##Tri selon le no immatriculation ##");
-		garage.triNoImmatriculion();
-		System.out.println(garage);
-
-		System.out.println("\n\n##Tri selon le compteur km totalisateur ##");
-		garage.triCompteur();
-		System.out.println(garage);		
-	}
-
+	
 	//Fonction qui trie le garage avec TREESET
 	private static void tri2(Garage2 garage) {
 		System.out.println("\n\n##Tri selon le no immatriculation ##");
