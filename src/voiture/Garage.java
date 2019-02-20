@@ -43,12 +43,12 @@ public class Garage implements Iterable<Vehicule> {
     }
 
     public void resetPartielAll() {
-		Fonction<Vehicule> resetPartiel = new ResetPartiel();
+		Fonction<Vehicule> resetPartiel = new resetPartiel();
 		this.map(resetPartiel);
 	}
 
 	public void faireLePleinAll() {
-		Fonction<Vehicule> faireLePlein = new FaireLePlein();
+		Fonction<Vehicule> faireLePlein = new faireLePlein();
 		this.map(faireLePlein);
     }
 
